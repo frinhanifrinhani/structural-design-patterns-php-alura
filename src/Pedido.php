@@ -4,7 +4,6 @@ namespace Alura\DesignPattern;
 
 class Pedido
 {
-    public string $nomeCliente;
-    public \DateTimeInterface $dataFinalizacao;
+    public DadosExtinsecosPedido $dados;
     public Orcamento $orcamento;
 }
